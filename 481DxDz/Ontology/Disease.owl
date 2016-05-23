@@ -797,168 +797,6 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Appendicitis2</Literal>
-        </Annotation>
-        <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#appendicitisSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#appendicitisSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#appendicitisSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-        </Body>
-        <Head>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <NamedIndividual IRI="#Appendicitis"/>
-            </ObjectPropertyAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cold2</Literal>
-        </Annotation>
-        <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-            </ObjectPropertyAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-        </Body>
-        <Head>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <NamedIndividual IRI="#Cold"/>
-            </ObjectPropertyAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flu2</Literal>
-        </Annotation>
-        <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#fluSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#fluSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#fluSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-        </Body>
-        <Head>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <NamedIndividual IRI="#Flu"/>
-            </ObjectPropertyAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Appendicitis1</Literal>
         </Annotation>
         <Body>
@@ -1144,45 +982,127 @@
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HeartAttack2</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Appendicitis2</Literal>
         </Annotation>
         <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#heartAttackSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#heartAttackSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#heartAttackSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
+            <ClassAtom>
+                <ObjectMinCardinality cardinality="3">
+                    <ObjectProperty IRI="#appendicitisSymptom"/>
+                    <Class IRI="#Symptom"/>
+                </ObjectMinCardinality>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="urn:swrl#p"/>
             </ClassAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="urn:swrl#p"/>
+                <NamedIndividual IRI="#Appendicitis"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cold2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <ObjectMinCardinality cardinality="3">
+                    <ObjectProperty IRI="#coldSymptom"/>
+                    <Class IRI="#Symptom"/>
+                </ObjectMinCardinality>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDisease"/>
+                <Variable IRI="urn:swrl#p"/>
+                <NamedIndividual IRI="#Cold"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flu2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <ObjectMinCardinality cardinality="3">
+                    <ObjectProperty IRI="#fluSymptom"/>
+                    <Class IRI="#Symptom"/>
+                </ObjectMinCardinality>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDisease"/>
+                <Variable IRI="urn:swrl#p"/>
+                <NamedIndividual IRI="#Flu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HeartAttack2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <ObjectMinCardinality cardinality="3">
+                    <ObjectProperty IRI="#heartAttackSymptom"/>
+                    <Class IRI="#Symptom"/>
+                </ObjectMinCardinality>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDisease"/>
+                <Variable IRI="urn:swrl#p"/>
                 <NamedIndividual IRI="#HeartAttack"/>
             </ObjectPropertyAtom>
         </Head>
@@ -1201,42 +1121,22 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stroke2</Literal>
         </Annotation>
         <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
+            <ClassAtom>
+                <ObjectMinCardinality cardinality="3">
+                    <ObjectProperty IRI="#strokeSymptom"/>
+                    <Class IRI="#Symptom"/>
+                </ObjectMinCardinality>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="urn:swrl#p"/>
             </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
-            <DifferentIndividualsAtom>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </DifferentIndividualsAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="urn:swrl#p"/>
                 <NamedIndividual IRI="#Stroke"/>
             </ObjectPropertyAtom>
         </Head>
