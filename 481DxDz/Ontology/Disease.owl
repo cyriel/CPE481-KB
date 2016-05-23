@@ -1,16 +1,32 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="file:///C:/Users/Ginger/Documents/home/cpe481/Project/481DxDz/Ontology/disease.owl"
+     xml:base="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="file:///C:/Users/Ginger/Documents/home/cpe481/Project/481DxDz/Ontology/disease.owl">
+     ontologyIRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl">
+    <Prefix name="" IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sore_Throat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesSymptom"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#Appendicitis"/>
     </Declaration>
@@ -18,73 +34,7 @@
         <Class IRI="#Loss_of_Vision"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#includesSymptom"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sore_Throat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dizziness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Disease"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HeartAttack"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Numbness"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Stroke"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fever"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Symptom"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Runny_Nose"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cold"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#fluSymptom"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSymptoms"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Shortness_of_Breath"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Fatigue"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sneezing"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Congestion"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#strokeSymptom"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cough"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Runny_Nose"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sweating"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Loss_of_Balance"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sneezing"/>
+        <NamedIndividual IRI="#Cough"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pain"/>
@@ -93,115 +43,166 @@
         <Class IRI="#Fatigue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Congestion"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Cold"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Paralysis"/>
+        <NamedIndividual IRI="#Numbness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loss_of_Appetite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coldSymptom"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#includesDisease"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cough"/>
+        <ObjectProperty IRI="#hasSymptoms"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Loss_of_Balance"/>
+        <Class IRI="#Sneezing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Patient"/>
+        <Class IRI="#Stroke"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Loss_of_Appetite"/>
+        <NamedIndividual IRI="#Headache"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Fever"/>
+        <Class IRI="#Cold"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BobFlu"/>
+        <ObjectProperty IRI="#strokeSymptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#heartAttackSymptom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Runny_Nose"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Headache"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Shortness_of_Breath"/>
+        <NamedIndividual IRI="#Flu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeartAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runny_Nose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stroke"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pain"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loss_of_Balance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BobFlu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeartAttack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shortness_of_Breath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Congestion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vomiting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sneezing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_of_Appetite"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Paralysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sore_Throat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weakness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loss_of_Vision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vomiting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paralysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Congestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shortness_of_Breath"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fluSymptom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Weakness"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Flu"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Inability_to_pass_gas"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Sweating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_of_Balance"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numbness"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Appendicitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweating"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Inability_to_pass_gas"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#appendicitisSymptom"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDisease"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sweating"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Headache"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stroke"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Loss_of_Vision"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#coldSymptom"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#heartAttackSymptom"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Vomiting"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Numbness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sore_Throat"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Vomiting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Dizziness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Flu"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HeartAttack"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Weakness"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Loss_of_Appetite"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Appendicitis"/>
@@ -799,10 +800,6 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Appendicitis2</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#appendicitisSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
@@ -811,13 +808,17 @@
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#appendicitisSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#appendicitisSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
             </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
             <DifferentIndividualsAtom>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
@@ -853,6 +854,16 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cold2</Literal>
         </Annotation>
         <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#coldSymptom"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#coldSymptom"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
+            </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
@@ -870,20 +881,10 @@
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
             </DifferentIndividualsAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
             <DifferentIndividualsAtom>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
             </DifferentIndividualsAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
@@ -907,15 +908,6 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flu2</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#fluSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#fluSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
@@ -926,6 +918,15 @@
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
             </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#fluSymptom"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
             <DifferentIndividualsAtom>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
@@ -961,10 +962,6 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Appendicitis1</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
@@ -975,6 +972,10 @@
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
             </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
@@ -998,10 +999,6 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cold1</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
@@ -1012,6 +1009,10 @@
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
             </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
@@ -1035,20 +1036,20 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flu1</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
-            </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
                 <NamedIndividual IRI="#Flu"/>
             </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSymptoms"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
@@ -1072,20 +1073,20 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HeartAttack1</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
-            </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
                 <NamedIndividual IRI="#HeartAttack"/>
             </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSymptoms"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
@@ -1109,10 +1110,6 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stroke1</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
@@ -1123,6 +1120,10 @@
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
             </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
@@ -1146,14 +1147,10 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HeartAttack2</Literal>
         </Annotation>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#heartAttackSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#heartAttackSymptom"/>
@@ -1163,8 +1160,12 @@
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#heartAttackSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
             </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+            </ClassAtom>
             <DifferentIndividualsAtom>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
@@ -1200,6 +1201,16 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stroke2</Literal>
         </Annotation>
         <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#strokeSymptom"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#strokeSymptom"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
+            </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
@@ -1207,17 +1218,7 @@
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#strokeSymptom"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s2"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s3"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
             </ObjectPropertyAtom>
             <DifferentIndividualsAtom>
                 <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s1"/>
