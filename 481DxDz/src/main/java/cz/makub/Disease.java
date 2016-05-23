@@ -38,8 +38,7 @@ import java.io.*;
  * @author Martin Kuba makub@ics.muni.cz
  */
 public class Disease {
-    private static File file = new File("Ontology/disease.owl");
-    private static final String BASE_URL = "file:///"+file.getAbsolutePath().replace("\\", "/");
+    private static final String BASE_URL = "http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl";
     //private static final String BASE_URL = "file:///C:/Users/Ginger/Documents/home/cpe481/Project/481DxDz/Ontology/disease.owl";
     //DL = Description Logic
     private static OWLObjectRenderer renderer = new DLSyntaxObjectRenderer();
