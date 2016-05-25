@@ -4,6 +4,7 @@
  * @author Martin Kuba makub@ics.muni.cz
  * modified for cpe481 class project
  */
+// TODO: change package/folders and keep things working properly.
 package cz.makub;
 
 import com.clarkparsia.owlapi.explanation.DefaultExplanationGenerator;
@@ -40,12 +41,13 @@ import java.io.*;
  *
  * @author Martin Kuba makub@ics.muni.cz
  */
+// TODO: Make comments easier to read
 public class Disease {
     private static final String BASE_URL = "http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl";
     //DL = Description Logic
     private static OWLObjectRenderer renderer = new DLSyntaxObjectRenderer();
     // diseaseSymptoms = disease -> # of symptoms triggering disease
-    private static HashMap<String, Double> diseaseSymptoms = new HashMap<String, Double>();
+    private static HashMap<String, Double> diseaseSymptoms;
     
     @SuppressWarnings({ "rawtypes", "unchecked" })
 	private static LinkedList<Map.Entry<String, Double>> sortDiseases() {
@@ -58,13 +60,7 @@ public class Disease {
         return list;
     }
     
-    private static OWLNamedIndividual createIndividual(OWLOntology ontology, PrefixDocumentFormat pm, OWLOntologyManager manager, String name) {
-        OWLDataFactory factory = manager.getOWLDataFactory();
-        OWLNamedIndividual individual = factory.getOWLNamedIndividual(name, pm);
-        manager.addAxiom(ontology, factory.getOWLDeclarationAxiom(individual));
-        return individual;
-    }
-    
+    // TODO: cleanup code (remove unneeded comments)
     public static void main(String[] args) throws OWLOntologyCreationException {
         System.out.println(BASE_URL);
         //prepare ontology and reasoner
@@ -83,10 +79,6 @@ public class Disease {
         OWLClass diseaseClass = factory.getOWLClass(":Disease", pm);
         OWLClass symptomClass = factory.getOWLClass(":Symptom", pm);
         OWLClass patientClass = factory.getOWLClass(":Patient", pm);
-        
-        OWLNamedIndividual patient0 = createIndividual(ontology, pm, manager, ":patient0");
-        OWLObjectProperty hasSymptoms = factory.getOWLObjectProperty(":hasSymptoms", pm);
-        manager.addAxiom(ontology, factory.getOWLClassAssertionAxiom(patientClass, patient0));
         
         // create local symptom db for prompt
         for (OWLNamedIndividual symptom : reasoner.getInstances(symptomClass, false).getFlattened()) {
@@ -123,18 +115,30 @@ public class Disease {
     		}
         } while (true);
         
+        OWLNamedIndividual patient0 = factory.getOWLNamedIndividual(":patient0", pm);
+        manager.addAxiom(ontology, factory.getOWLDeclarationAxiom(patient0));
+        manager.addAxiom(ontology, factory.getOWLClassAssertionAxiom(patientClass, patient0));
+        OWLObjectProperty hasSymptoms = factory.getOWLObjectProperty(":hasSymptoms", pm);
+        
         // transfer symptoms into ontology
 		for (int i = 0; i < symptoms.length; i++) {
 			if (selected[i]) {
 //				System.out.print(symptoms[i]);
-        		symptomDB.get(symptoms[i]);
+				manager.addAxiom(ontology, factory.getOWLObjectPropertyAssertionAxiom(hasSymptoms, patient0, symptomDB.get(symptoms[i])));
 //				System.out.println();
 			}
 		}
 
+		reasoner = reasonerFactory.createReasoner(ontology, new SimpleConfiguration());
+		
+//        for (OWLNamedIndividual ind : reasoner.getObjectPropertyValues(patient0, hasSymptoms).getFlattened()) {
+//            System.out.println(renderer.render(ind));
+//        }
+		
         // run all individuals
+		// TODO: clean up strings to sound more user friendly
         for (OWLNamedIndividual person : reasoner.getInstances(patientClass, false).getFlattened()) {
-	        System.out.println(renderer.render(person));
+        	diseaseSymptoms = new HashMap<String, Double>();
         	//OWLNamedIndividual person = factory.getOWLNamedIndividual(":Patient0", pm);
 	        // get values of selected properties on the individual
 	        OWLObjectProperty hasDisease = factory.getOWLObjectProperty(":hasDisease", pm);
