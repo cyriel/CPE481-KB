@@ -802,24 +802,24 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
                 <NamedIndividual IRI="#Appendicitis"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
             </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#appendicitisSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -839,24 +839,24 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
                 <NamedIndividual IRI="#Cold"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
             </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -876,24 +876,24 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
                 <NamedIndividual IRI="#Flu"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
             </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#fluSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -913,24 +913,24 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
                 <NamedIndividual IRI="#HeartAttack"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
             </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#heartAttackSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -950,24 +950,24 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
                 <NamedIndividual IRI="#Stroke"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
             </ClassAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#p"/>
-                <Variable IRI="http://www.semanticweb.org/cpe481/ontologies/disease#s"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
