@@ -43,7 +43,7 @@ import java.io.*;
  */
 // TODO: Make comments easier to read
 public class Disease {
-    private static final String BASE_URL = "http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl";
+    private static final String BASE_URL = "http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease2.owl";
     //DL = Description Logic
     private static OWLObjectRenderer renderer = new DLSyntaxObjectRenderer();
     // diseaseSymptoms = disease -> # of symptoms triggering disease
