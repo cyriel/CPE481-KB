@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1464195227185" name="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl" uri="Disease.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464797160502" name="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl" uri="Disease.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464797160502" name="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease2.owl" uri="Disease2.owl"/>
     </group>
 </catalog>

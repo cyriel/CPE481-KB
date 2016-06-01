@@ -166,9 +166,6 @@
         <NamedIndividual IRI="#Fever"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BobPneumonia"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Pain"/>
     </Declaration>
     <Declaration>
@@ -194,9 +191,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#strokeSymptom"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BobFoodPoison"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#allergiesSymptom"/>
@@ -230,9 +224,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Shortness_of_Breath"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BobFlu"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSymptoms"/>
@@ -271,13 +262,10 @@
         <ObjectProperty IRI="#includesDisease"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BobCrohns"/>
+        <NamedIndividual IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Chest_Tightness"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cold"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Chest_Tightness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Appendicitis"/>
@@ -455,22 +443,6 @@
         <NamedIndividual IRI="#Asthma"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Patient"/>
-        <NamedIndividual IRI="#BobCrohns"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Patient"/>
-        <NamedIndividual IRI="#BobFlu"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Patient"/>
-        <NamedIndividual IRI="#BobFoodPoison"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Patient"/>
-        <NamedIndividual IRI="#BobPneumonia"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Cold"/>
         <NamedIndividual IRI="#Cold"/>
     </ClassAssertion>
@@ -598,48 +570,6 @@
         <Class IRI="#Wheezing"/>
         <NamedIndividual IRI="#Wheezing"/>
     </ClassAssertion>
-    <DifferentIndividuals>
-        <NamedIndividual IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Chest_Tightness"/>
-        <NamedIndividual IRI="#Allergies"/>
-        <NamedIndividual IRI="#Appendicitis"/>
-        <NamedIndividual IRI="#Asthma"/>
-        <NamedIndividual IRI="#BobCrohns"/>
-        <NamedIndividual IRI="#BobFlu"/>
-        <NamedIndividual IRI="#BobFoodPoison"/>
-        <NamedIndividual IRI="#BobPneumonia"/>
-        <NamedIndividual IRI="#Cold"/>
-        <NamedIndividual IRI="#Congestion"/>
-        <NamedIndividual IRI="#Cough"/>
-        <NamedIndividual IRI="#Crohns_Disease"/>
-        <NamedIndividual IRI="#Diarrhea"/>
-        <NamedIndividual IRI="#Dizziness"/>
-        <NamedIndividual IRI="#Fatigue"/>
-        <NamedIndividual IRI="#Fever"/>
-        <NamedIndividual IRI="#Flu"/>
-        <NamedIndividual IRI="#Food_Poisoning"/>
-        <NamedIndividual IRI="#Headache"/>
-        <NamedIndividual IRI="#Heart_Attack"/>
-        <NamedIndividual IRI="#Inability_to_pass_gas"/>
-        <NamedIndividual IRI="#Loss_of_Appetite"/>
-        <NamedIndividual IRI="#Loss_of_Balance"/>
-        <NamedIndividual IRI="#Loss_of_Vision"/>
-        <NamedIndividual IRI="#Nausea"/>
-        <NamedIndividual IRI="#Numbness"/>
-        <NamedIndividual IRI="#Pain"/>
-        <NamedIndividual IRI="#Paralysis"/>
-        <NamedIndividual IRI="#Pneumonia"/>
-        <NamedIndividual IRI="#Runny_Nose"/>
-        <NamedIndividual IRI="#Shortness_of_Breath"/>
-        <NamedIndividual IRI="#Sneezing"/>
-        <NamedIndividual IRI="#Sore_Throat"/>
-        <NamedIndividual IRI="#Stroke"/>
-        <NamedIndividual IRI="#Sweating"/>
-        <NamedIndividual IRI="#Vomiting"/>
-        <NamedIndividual IRI="#Watery_Eyes"/>
-        <NamedIndividual IRI="#Weakness"/>
-        <NamedIndividual IRI="#Weight_Loss"/>
-        <NamedIndividual IRI="#Wheezing"/>
-    </DifferentIndividuals>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#includesDisease"/>
         <NamedIndividual IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Chest_Tightness"/>
@@ -719,91 +649,6 @@
         <ObjectProperty IRI="#includesSymptom"/>
         <NamedIndividual IRI="#Asthma"/>
         <NamedIndividual IRI="#Wheezing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobCrohns"/>
-        <NamedIndividual IRI="#Diarrhea"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobCrohns"/>
-        <NamedIndividual IRI="#Fever"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobCrohns"/>
-        <NamedIndividual IRI="#Pain"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobCrohns"/>
-        <NamedIndividual IRI="#Weight_Loss"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFlu"/>
-        <NamedIndividual IRI="#Cough"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFlu"/>
-        <NamedIndividual IRI="#Fever"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFlu"/>
-        <NamedIndividual IRI="#Pain"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFlu"/>
-        <NamedIndividual IRI="#Runny_Nose"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFlu"/>
-        <NamedIndividual IRI="#Sneezing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFoodPoison"/>
-        <NamedIndividual IRI="#Diarrhea"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFoodPoison"/>
-        <NamedIndividual IRI="#Nausea"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFoodPoison"/>
-        <NamedIndividual IRI="#Pain"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobFoodPoison"/>
-        <NamedIndividual IRI="#Vomiting"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobPneumonia"/>
-        <NamedIndividual IRI="#Cough"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobPneumonia"/>
-        <NamedIndividual IRI="#Fever"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobPneumonia"/>
-        <NamedIndividual IRI="#Shortness_of_Breath"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptoms"/>
-        <NamedIndividual IRI="#BobPneumonia"/>
-        <NamedIndividual IRI="#Weakness"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#includesSymptom"/>
