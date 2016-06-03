@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease2.owl"
+     xml:base="file:///C:/Users/Elton/Desktop/CPE481-KB/481DxDz/Ontology/Disease2.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease2.owl">
-    <Prefix name="" IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease2.owl"/>
+     ontologyIRI="file:///C:/Users/Elton/Desktop/CPE481-KB/481DxDz/Ontology/Disease2.owl">
+    <Prefix name="" IRI="file:///C:/Users/Elton/Desktop/CPE481-KB/481DxDz/Ontology/Disease2.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -1349,24 +1349,24 @@
         <Body>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
             </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
                 <NamedIndividual IRI="#Appendicitis"/>
             </ObjectPropertyAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#appendicitisSymptom"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -1386,24 +1386,24 @@
         <Body>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
             </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
                 <NamedIndividual IRI="#Cold"/>
             </ObjectPropertyAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#coldSymptom"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -1423,24 +1423,24 @@
         <Body>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
             </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
                 <NamedIndividual IRI="#Flu"/>
             </ObjectPropertyAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#fluSymptom"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -1460,24 +1460,24 @@
         <Body>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
             </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
                 <NamedIndividual IRI="#Heart_Attack"/>
             </ObjectPropertyAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#heartAttackSymptom"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
@@ -1497,24 +1497,24 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#includesDisease"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
                 <NamedIndividual IRI="#Stroke"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="#Patient"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
             </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasSymptoms"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#strokeSymptom"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#p"/>
-                <Variable IRI="http://users.csc.calpoly.edu/~eyang03/CPE481-KB/481DxDz/Ontology/Disease.owl#s"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#p"/>
+                <Variable IRI="https://raw.githubusercontent.com/cyriel/CPE481-KB/master/481DxDz/Ontology/Disease2.owl#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
